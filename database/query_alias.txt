@@ -1,0 +1,35 @@
+1.select ename,sal*12 as "Anual salary"
+from emp;
+
+2.select ename,sal,sal+sal*.18 as "18%hike salary"
+from emp;
+
+3.select ename,sal,sal-sal*.40 as "40%deduction salary"
+from emp;
+
+4.select ename,sal,sal+sal*.07 as "7%hike salary"
+from emp;
+
+5.select ename,sal*12 "Anual salary",(sal+sal*.34)*12 as "34%hike salary"
+from emp;
+
+6.select ename,sal*12+5000 as "anual Salary With Bonus"
+from emp;
+
+7.select ename,sal*12 as "anual Salary",
+		sal*12*.34 "sal hike with 34%"
+		from emp;
+
+8.select ename,(sal*12)-.1 as "10% deduction salary"
+from emp;
+
+9.select ename,(sal*12)+comm as "salary with commision"
+from emp;
+
+10.select EMPNO,ENAME,JOB,MGR, HIREDATE,SAL*12 "Anual Salary",COMM
+from emp;
+		(select EMP.*,SAL*12 "Anual Salary"
+			from emp;
+
+11.select ename,job "Designation",sal-100 as "salary with panalty"
+from emp;
