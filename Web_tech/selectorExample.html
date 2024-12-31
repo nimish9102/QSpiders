@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label[for]{
+            background-color: rgb(94, 81, 107);
+        }
+        label[for='taking name']{
+            background-color: blueviolet;
+        }
+        input:hover{
+            background-color: aquamarine;
+            border-radius: 20px;
+            border-width: 0ch;
+        }
+        input:focus{
+            background-color: rgb(202, 58, 58);
+        }
+        a:visited{
+            color: rgb(46, 237, 237);
+        }
+        a:link{
+            color: rgb(140, 125, 154);
+        }
+        a:active{
+            color: rgb(26, 25, 25);
+        }
+        label:first-child{
+            font-style: italic;
+             color: brown;
+        }
+        a:last-child{
+            font-size: xx-large;
+        }
+        input:nth-child(2){
+            background-color: aquamarine;
+        }
+        p::first-letter{
+            font-size: xx-large;
+            color: brown;
+        }
+        p::first-line{
+            background-color: aquamarine;
+        }
+        p::after{
+            content:'this is after "add"';
+        }
+        p::before{
+            content:'add before ';
+        }
+        ::selection{
+            color: brown;
+        }
+        input::placeholder{
+            color: rgb(239, 170, 170);
+        }
+    </style>
+</head>
+<body>
+    <label for="taking name">Enter name : </label>
+    <input type="text" name="name" placeholder="first name">
+    <label for="taking age">Enter age : </label>
+    <input type="text" name="age" placeholder="25">
+    <a href="https://openai.com" target="_blank">Hyper link </a>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sed, laudantium adipisci aut rem voluptatem placeat possimus fuga accusantium ullam praesentium, nulla officiis aspernatur reprehenderit rerum et eaque eum? Aliquid minima, ipsam, ducimus voluptate quisquam nobis dolores ullam sed ratione debitis fugit nostrum laudantium! Earum sapiente id ipsam aut, laboriosam tempora aperiam! Numquam, fuga!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, hic nihil quam tenetur aliquam aliquid eum eaque, consequatur quasi, odit iusto dolores. Ipsum quod molestias recusandae at id? Dicta modi atque nobis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi provident, suscipit fugit facere, sequi alias explicabo et eveniet vel ducimus consequatur velit hic quo nisi illum quidem tempore natus iste aspernatur! Natus?</p>
+</body>
+</html>
